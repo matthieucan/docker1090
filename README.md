@@ -34,3 +34,8 @@ docker-compuse up -d
 ```
 
 And navigate to `http://<raspberry-pi-ip-address>:8090/`.
+
+## License
+
+Released under [WTFPL](LICENSE). Embedded software built in containers
+have their own licenses.
