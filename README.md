@@ -13,8 +13,8 @@ planes caught up by your antenna.
 
 ## Hardware
 
-This is made for Raspberry Pi coupled to an RTL-SDR antenna. It should work on
-all versions of the board.
+This is made for Raspberry Pi, coupled to an RTL-SDR antenna. It
+should work with all versions of the board.
 
 If you want to run this on another architecture, you will probaly have to
 replace instances of `arm-linux-gnueabihf` in `dump1090/Dockerfile` with the
@@ -37,5 +37,5 @@ And navigate to `http://<raspberry-pi-ip-address>:8090/`.
 
 ## License
 
-Released under [WTFPL](LICENSE). Embedded software built in containers
-have their own licenses.
+Released under [WTFPL](LICENSE). Embedded software in containers have
+their own licenses.
