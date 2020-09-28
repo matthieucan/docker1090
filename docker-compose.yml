@@ -1,0 +1,20 @@
+version: "3.3"
+
+services:
+
+  dump1090:
+    build: ./dump1090
+    volumes:
+      - data:/run/dump1090
+    devices:
+      - "/dev/bus/usb:/dev/bus/usb"
+
+  tar1090:
+    build: ./tar1090
+    volumes:
+      - data:/run/dump1090
+    ports:
+      - "8090:80"
+
+volumes:
+  data:
